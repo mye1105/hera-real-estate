@@ -1,8 +1,15 @@
+import './styles/Home.css';
+
 function Home(){
   return(
-    <div>
-      <h2>Home</h2>
-      <p>This is the homepage</p>
+    <div className="home-div">
+      <section className="main">
+        <h1>Where Home Find Their Stories</h1>
+        <p className="homeP">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, error maxime debitis veniam dolor, assumenda hic vitae id nihil perferendis acilis! Sed autem quas ipsam, eos optio natus dolorem corporis.
+          </p>      
+        </section>
+      
     </div>
   )
 }
